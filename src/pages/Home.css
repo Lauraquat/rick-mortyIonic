@@ -1,0 +1,34 @@
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+ion-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  padding: 1.5rem 1rem;
+}
+
+ion-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+ion-thumbnail {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.cardLabel {
+  font-size: 1.2rem !important;
+  font-weight: bold;
+  color: black !important;
+}
